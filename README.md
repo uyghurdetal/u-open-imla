@@ -4,6 +4,14 @@
 
 uyghur tili imla sozlvk ambiri
 
+### 目地址
+> 我们更多的讨论希望都在github上进行，
+> 由于Hub的issue无法同步到gitee，望你发起讨论时优先在hub上开启issue
+
+[国内 Gitee](https://gitee.com/silvaq/u-open-imla)
+
+[GitHub](https://github.com/ishirkhan/u-open-imla)
+
 ## 目前的词汇情况
 
 - 总语料词汇 ` 183,902 `
