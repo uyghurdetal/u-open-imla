@@ -26,7 +26,7 @@ uyghur tili imla sozlvk ambiri
 ## todo list
 
 - [ ] 继续找靠谱语料数据，继续扩展 imla_core 词汇
-
+- [ ] 处理语料 sbt_song_names.txt
 
 ## finished list
 
