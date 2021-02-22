@@ -4,19 +4,21 @@
 
 uyghur tili imla sozlvk ambiri
 
-### 目地址
+--- 
+### 项目地址
 > 我们更多的讨论希望都在github上进行，
 > 由于Hub的issue无法同步到gitee，望你发起讨论时优先在hub上开启issue
 
-[国内 Gitee](https://gitee.com/silvaq/u-open-imla)
+- [国内 Gitee](https://gitee.com/silvaq/u-open-imla)
 
-[GitHub](https://github.com/ishirkhan/u-open-imla)
+- [GitHub](https://github.com/ishirkhan/u-open-imla)
 
+---
 ## 目前的词汇情况
 
-- 总语料词汇 ` 183,902 `
-- 标准词汇 ` 102,308 `
-- 推荐词  ` 16,149 `
+- 总语料词汇 ` 203,516 `
+- 标准词汇 ` 108,199 `
+- 推荐词  ` 19,397 `
 - 本项目禁用词 ` 908 `
 
 ---
@@ -29,16 +31,14 @@ uyghur tili imla sozlvk ambiri
   
 > 如果你发现任何不符合法律法规行为或者问题，望你及时和我们联系，或者公开指出问题，我们会最快速度处理
 
+---
 
 ## todo list
 
 - [ ] 继续找靠谱语料数据，继续扩展 imla_core 词汇
-- [ ] 处理语料 sbt_song_names.txt
-- [ ] 处理语料 abds_zc_gzbg.txt
-- [ ] 处理语料 mht_nr.txt
 
 ## finished list
-
+- [x] 处理合并语料 v5_20210222154849.txt 生成标准词汇和推荐词 [20210222154849]
 - [x] 处理合并语料 v4_20210220140620.txt 生成标准词汇和推荐词 [v4_20210220140620]
 - [x] 处理合并语料 v3_20210220104002.txt 生成标准词汇和推荐词 [20210220104002]
 - [x] 处理合并语料 v2_20210219174227.txt 生成标准词汇和推荐词 [20210219174227]
@@ -51,6 +51,7 @@ uyghur tili imla sozlvk ambiri
 - [x] 脚本集做成 library，方便使用、扩展、维护、更新
 - [x] 准备纯文本中提取内容脚本
 
+---
 # 常用 shell 命令
 
 统计 corpus 中各个文件 和行数
