@@ -35,6 +35,7 @@ uyghur tili imla sozlvk ambiri
 - [ ] 继续找靠谱语料数据，继续扩展 imla_core 词汇
 - [ ] 处理语料 sbt_song_names.txt
 - [ ] 处理语料 abds_zc_gzbg.txt
+- [ ] 处理语料 mht_nr.txt
 
 ## finished list
 
