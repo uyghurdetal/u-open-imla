@@ -1,5 +1,5 @@
 import os
-from .string_tool import text_to_words
+from shirkhan.string_tool import text_to_words
 
 """
 处理文件句柄

@@ -10,16 +10,10 @@ pip install shirkhan
 ```
 
 ```python
-from shirkhan import decode, encode, syllabify
-
-encode("xxxx")
-decode("yyy")
+from shirkhan import syllabify
 word = "شىرخان"
 print(syllabify(word))
-
 ```
-
-> 更多使用案例请看 examples目录中的脚本
 
 # 开发，贡献指南
 
