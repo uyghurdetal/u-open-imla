@@ -18,6 +18,15 @@ class File:
             file_lines = f.readlines()
         return file_lines
 
+    def write_lines(self, lines=[], mode="w", encoding="utf-8", newline_separator="\n"):
+        if lines is None or len(lines) == 0:
+            return false
+        with open(self.path, mode=mode, encoding=encoding) as target:
+            for line in lines:
+                line = line.strip()
+                target.write(line)
+                target.write(newline_separator)
+
     def get_text(self):
         return "".join(self.get_lines()).strip()
 

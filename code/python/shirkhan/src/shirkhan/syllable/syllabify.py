@@ -32,6 +32,7 @@ def embed_delimiter(retoken, delimiter="x"):
     group = do_group(retoken)
     # print("group", group)
     position = ""
+
     for index in range(len(group)):
         item = group[index]
         if len(item) == 0:
@@ -39,6 +40,10 @@ def embed_delimiter(retoken, delimiter="x"):
         if index == 0 or item[-1] != '1':  # 第一和最后一项
             position = position + ''.join(item)
             continue
+        if ''.join(item) == '1':
+            position = position + ''.join(item)
+            continue
+
         c_count = len(item) - 1
         if c_count == 1:
             position = position + item[0] + delimiter + ''.join(item[1:])
@@ -46,7 +51,11 @@ def embed_delimiter(retoken, delimiter="x"):
         elif c_count == 2:
             position = position + item[0] + delimiter + ''.join(item[1:])
         elif c_count == 3:
-            position = position + ''.join(item[:2]) + delimiter + ''.join(item[2:])
+            position = position + ''.join(item[0]) + delimiter + ''.join(item[1:])
+        elif c_count == 4:
+            position = position + ''.join(item[0]) + delimiter + ''.join(item[1:3]) + delimiter + ''.join(item[3:])
+        elif c_count == 5:
+            position = position + ''.join(item[0]) + delimiter + ''.join(item[1:4]) + delimiter + ''.join(item[4:])
         else:
             pass
             # print("不知道", c_count, item)
@@ -78,7 +87,10 @@ def syllabify(word):
     4. 按照分音节通用算法进行给retoken 植入分隔符
         - 两个元音之间有1个辅音它属于前面的音节
         - 两个元音之间有2个辅音它一个属于前面的，一个属于后面的
-        - 两个元音之间有3个辅音 前两个属于前面的，最后一个属于后面的
+        - 两个元音之间有3个辅音 第一个属于前面的，后两个属于后面的
+        - 两个元音之间有4个辅音 第一个属于前面的，其后的两个一组，最后一个属于后面的   【shirkhan 给自己出的规则，目前没有任何凭据这么做，而且是不对的】
+        - 两个元音之间有5个辅音 第一个属于前面的，其后的三个一组，最后一个属于后面的   【shirkhan 给自己出的规则，目前没有任何凭据这么做，而且是不对的】
+
     5. 把嵌入分割符的retoken分割点坐标映射到原始内容上 i -> len(word)-i
     6. 按照分割符切割
 

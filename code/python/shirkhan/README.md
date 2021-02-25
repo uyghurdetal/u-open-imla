@@ -5,8 +5,22 @@ the python tool for shirkhan
 
 # Usage
 
+## 安装
+
 ```shell
 pip install shirkhan
+```
+
+## 更新
+
+```shell
+ pip install --upgrade shirkhan
+```
+
+## 删除
+
+```shell
+ pip uninstall  shirkhan
 ```
 
 ```python
@@ -17,6 +31,57 @@ decode("yyy")
 word = "شىرخان"
 print(syllabify(word))
 
+```
+
+# shirkhan 专用脚本库的更多功能示例：
+
+## 分音节
+
+```python
+from shirkhan import syllabify
+
+print(syllabify('شىرخان'))
+
+# output ['شىر', 'خان']
+```
+
+## 元音辅音组合的向量
+
+```python
+from shirkhan import SWord
+
+target_word = "شىرخان"
+
+print(SWord(target_word).tokenize())
+
+# output 010010
+```
+
+## 组合向量分组
+
+```python
+from shirkhan import SWord, do_group
+
+target_word = "شىرخان"
+token = SWord(target_word).tokenize()
+retoken = token[::-1]  # 反转
+print(do_group(retoken))
+
+# output [['0', '1'], ['0', '0', '1'], ['0']]
+```
+
+## 分音原始内容
+
+```python
+from shirkhan import SWord, position_transform, embed_delimiter
+
+target_word = "شىرخان"
+token = SWord(target_word).tokenize()
+retoken = token[::-1]
+
+print(position_transform(target_word, embed_delimiter(retoken)))
+
+# output شىرxخان
 ```
 
 > 更多使用案例请看 examples目录中的脚本
