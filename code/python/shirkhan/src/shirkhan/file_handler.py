@@ -15,13 +15,14 @@ class File:
     def get_lines(self, mode="r", encoding="utf-8"):
         file_lines = []
         with open(self.path, mode=mode, encoding=encoding) as f:
-            file_lines = f.readlines()
+            file_lines = [line.strip() for line in f.readlines()]
         return file_lines
 
-    def write_lines(self, lines=[], mode="w", encoding="utf-8", newline_separator="\n"):
+    @staticmethod
+    def write_lines(file_path, lines=[], mode="w", encoding="utf-8", newline_separator="\n"):
         if lines is None or len(lines) == 0:
             return false
-        with open(self.path, mode=mode, encoding=encoding) as target:
+        with open(file_path, mode=mode, encoding=encoding) as target:
             for line in lines:
                 line = line.strip()
                 target.write(line)
@@ -42,8 +43,8 @@ class File:
 
 if __name__ == '__main__':
     pass
-    fileHandler = File("test1.txt")
+    # fileHandler = File("test1.txt")
     # print(fileHandler.get_lines())
     # print(fileHandler.get_text())
     # print(fileHandler.get_words())
-    print(fileHandler.get_u_words())
+    # print(fileHandler.get_u_words())
