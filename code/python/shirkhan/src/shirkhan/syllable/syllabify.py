@@ -114,7 +114,21 @@ def syllabify(word):
     return final_posotional.split(delimiter)
 
 
+def similar_word_generator(word):
+    """
+    把给定的单词先分音节，然后组合生成单词列表并返回
+    :param word:
+    :return:
+    """
+    new_list = []
+    syll = syllabify(word)
+    for i in range(len(syll)):
+        new_word = syll[:len(syll) - i]
+        new_list.append(''.join(new_word))
+    return list(set(new_list))
+
+
 if __name__ == '__main__':
     pass
-    word = "شىرخان"
-    syllabify(word)
+    # word = "شىرخان"
+    # syllabify(word)
