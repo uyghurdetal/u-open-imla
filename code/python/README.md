@@ -52,3 +52,17 @@ print(position_transform(target_word, embed_delimiter(retoken)))
 
 # output شىرxخان
 ```
+
+## 单词繁殖器
+
+```python
+from shirkhan import similar_word_generator
+
+word = "شىرخاننىڭكى"
+print(word)
+print(similar_word_generator(word))
+
+# شىرخاننىڭكى
+# ['شىرخان', 'شىرخاننىڭ', 'شىر', 'شىرخاننىڭكى']
+```
+
