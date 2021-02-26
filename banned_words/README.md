@@ -19,11 +19,11 @@
 `推荐` 使用如下模糊匹配算法来过滤
 
 ```python
-from shirkhan import similar_word_generator
+from shirkhan import similar_words
 
 word = "شىرخاننىڭكى"
 print(word)
-print(similar_word_generator(word))
+print(similar_words(word))
 
 # شىرخاننىڭكى
 # ['شىرخان', 'شىرخاننىڭ', 'شىر', 'شىرخاننىڭكى']

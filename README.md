@@ -35,10 +35,14 @@ uyghur tili imla sozlvk ambiri
 
 > 如果你发现任何不符合法律法规的行为或者问题，请及时和我们联系，或者公开指出问题，我们会以最快的速度处理
 
+# 注意
+
+- 本项目code中的 shirkhan python lib 从本项目中分离，单独存放在 shirkhan_pylib项目中
+  > 更多信息请看本文档的  [相关开源项目部分](https://github.com/SilvaQ/shirkhan_pylib?#%E7%9B%B8%E5%85%B3%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE)
+
 ## todo list
 
 - [ ] 继续找靠谱语料数据，继续扩展 imla_core 词汇
-
 
 ## finished list
 
@@ -57,6 +61,11 @@ uyghur tili imla sozlvk ambiri
 - [x] 准备纯文本中提取内容脚本
 
 ---
+
+# 相关开源项目
+
+- [shirkhan python library](https://github.com/SilvaQ/shirkhan_pylib)
+- [uyghur Spell Check](https://github.com/gheyret/UyghurEditPP)
 
 # 常用 shell 命令
 
