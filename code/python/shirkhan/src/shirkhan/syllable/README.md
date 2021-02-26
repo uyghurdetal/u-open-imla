@@ -11,8 +11,12 @@ pip install shirkhan
 
 ```python
 from shirkhan import syllabify
-word = "شىرخان"
+word = "شىرخاننىڭكى"
 print(syllabify(word))
+
+#output
+#['شىر', 'خان', 'نىڭ', 'كى']
+
 ```
 
 # 开发，贡献指南

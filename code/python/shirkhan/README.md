@@ -33,7 +33,7 @@ print(syllabify(word))
 
 ```
 
-# shirkhan 专用脚本库的更多功能示例：
+# 功能示例：
 
 ## 分音节
 
@@ -74,44 +74,59 @@ print(SWord(target_word).tokenize())
 ## 组合向量分组
 
 ```python
-from shirkhan import SWord, do_group
+from shirkhan import SWord
 
-target_word = "شىرخان"
-token = SWord(target_word).tokenize()
-retoken = token[::-1]  # 反转
-print(do_group(retoken))
+target_word = "شىرخاننىڭمۇ"
+sw = SWord(target_word)
+gtoken = sw.get_grouped_token()
+gretoken = sw.get_grouped_retoken()
 
-# output [['0', '1'], ['0', '0', '1'], ['0']]
+print(sw.tokenize())
+print(gtoken)
+print(gretoken)
+
+# 01001001001
+# [['0', '1'], ['0', '0', '1'], ['0', '0', '1'], ['0', '0', '1']]
+# [['1'], ['0', '0', '1'], ['0', '0', '1'], ['0', '0', '1'], ['0']]
 ```
 
 ## 分音原始内容
 
 ```python
-from shirkhan import SWord, position_transform, embed_delimiter
+from shirkhan import SWord
 
-target_word = "شىرخان"
-token = SWord(target_word).tokenize()
-retoken = token[::-1]
+target_word = "شىرخاننىڭمۇ"
+sw = SWord(target_word)
+print(sw.get_positional_word())
+print(sw.get_positional_token())
+print(sw.get_positional_retoken())
 
-print(position_transform(target_word, embed_delimiter(retoken)))
-
-# output شىرxخان
+# شىرxخانxنىڭxمۇ
+# 010x010x010x01
+# 10x010x010x010
 ```
 
-## 单词繁殖器
+## 单词生成字单词
 
 ```python
-from shirkhan import similar_word_generator
+# 第一种方式
+from shirkhan import SWord
 
-word = "شىرخاننىڭكى"
-print(word)
-print(similar_word_generator(word))
+target_word = "شىرخاننىڭمۇ"
+sw = SWord(target_word)
+print(sw.get_similar_words())
 
-# شىرخاننىڭكى
-# ['شىرخان', 'شىرخاننىڭ', 'شىر', 'شىرخاننىڭكى']
+# 第二种方式
+from shirkhan import SWord,similar_words
+
+target_word = "شىرخاننىڭمۇ"
+print(similar_words(target_word))
+
+
+# output:
+# ['شىر', 'شىرخان', 'شىرخاننىڭ', 'شىرخاننىڭمۇ']
+
 ```
-
-> 更多使用案例请看 examples目录中的脚本
 
 # 开发，贡献指南
 
