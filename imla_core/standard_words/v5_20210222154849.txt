@@ -1,5 +1,3 @@
-1
-12
 121wc
 12a2
 12a2c
@@ -92,12 +90,10 @@
 12azebp5a2p7
 12azebp5a5g
 12azebve1
-12b
 12b2
 12b2b2c
 12b2c
 12bi5eb
-12c
 12c2
 12c2b2
 12c2b2c
@@ -127,7 +123,6 @@
 12cuwc2
 12f2
 12g2xxwgy2
-12h
 12h243x2b2g
 12h243x2b2p2hwb
 12h243x2b2p7
@@ -380,7 +375,6 @@
 12k2y2xhwb
 12k2yy2
 12kk7i2
-12l
 12lebl6x
 12o315eb
 12r2b
@@ -1938,7 +1932,6 @@
 13zeile
 13zwb2x2k
 13zwbe
-15a
 15a2g2
 15a2l2
 15a2l2b2
@@ -2776,7 +2769,6 @@
 16zevb2
 16zexve
 16zexzeb
-17
 1712b2p7
 1712p2hwb
 1712p7
@@ -2957,7 +2949,6 @@
 17h7ib2c
 17hwb
 17hwbp2b
-17k
 17k2
 17k2a2
 17k2a2awk
@@ -3098,7 +3089,6 @@
 17t2y3a
 17t2y3ab2c
 17tkw
-17v
 17v2xwk
 17v2xwkx2b2g
 17v2xwkx2k
@@ -3152,7 +3142,6 @@
 17vw1p7
 17vwk
 17vwxvw1
-17x
 17x743x2bhwb
 17x743x2g
 17x743y2g
@@ -3236,7 +3225,6 @@
 17zmfxw421ep2b
 17zmfxw421epe
 1e
-1e1
 1e1f2xea
 1e1feb
 1e1i7
@@ -3486,7 +3474,6 @@
 1egve
 1egy2
 1egy5a5t
-1el
 1el5b
 1el5b2
 1el5b2b2
@@ -4185,7 +4172,6 @@
 1mkyel
 1mkyelxw
 1mnwbbfrmaz
-1mp
 1mpb2c
 1mpmjmav
 1mpwy
@@ -5299,7 +5285,6 @@
 1wbyw1wk
 1wbywk
 1wbywkx2k
-1wc
 1wc17
 1wc17b2
 1wc17b2c
@@ -6088,7 +6073,6 @@
 1wog2xwt
 1wog2xwtxw
 1wog2xwty7
-1wp
 1wp2
 1wp2b
 1wp2c2sp2b
@@ -6472,7 +6456,6 @@
 1wvwkx2k
 1wvwt
 1wvwx
-1wx
 1wx2
 1wx2b2g
 1wx2b2g2
@@ -6732,12 +6715,8 @@
 1wyxwgy7k
 1wyy2
 1wyy2v
-2pe
 2v2s
-3
 3i2t
-3s
-4
 413bwp2l2
 413bwpw
 413ybwv
@@ -6801,7 +6780,6 @@
 42by2f2
 42by2x2k
 42byw
-42d
 42d2xp2vwk
 42d2xpwg
 42fl2
@@ -6867,7 +6845,6 @@
 42upwbhw
 42upwbp2b
 42upwbx2k
-42x
 42x1wv
 42xb17f
 42xlw
@@ -6899,12 +6876,10 @@
 42xwp24mfyml
 42xwp24mfymlpw
 42xwp2v2a
-42y
 42y2a
 42y2xpwg
 42ywv2b
 42ywv2bxwa
-431
 431g2b
 431oe1
 43av2l7x2y
@@ -6960,15 +6935,9 @@
 43x2ft2y2b2c
 43xx2cymb
 43z3ywy2t
-47
-471
 4747
-47a
-47c
-47g
 47g2
 47iwc
-47k
 47l7c
 47l7cb2c
 47oeb
@@ -6993,11 +6962,8 @@
 47u7pkw
 47u7pxwab2
 47vwiwc
-47x
 47x7c
 47z7cye1
-4e
-4e1
 4e1awb
 4e1awbe
 4e1awbi2x2k
@@ -7160,7 +7126,6 @@
 4epecxwapw
 4epef2
 4epev
-4es
 4es2
 4es212y2
 4es212y2b2
@@ -7236,7 +7201,6 @@
 4esowbw
 4esv2b
 4esv2bx2l
-4eu
 4eu2p2b
 4evwff2f2
 4ex2
@@ -7277,8 +7241,6 @@
 4eyebtea4eaxea
 4eyebtea4eaxeap2b
 4eyebze
-4m1
-4mb
 4mpmamp
 4mpmtam4mp
 4mx4mlf
@@ -7313,7 +7275,6 @@
 4mzswxp2b
 4mzswxpw
 4mzswxxwapw
-4w1
 4w11e1
 4w12hw
 4w1f2v2p2
@@ -7323,7 +7284,6 @@
 4w1fwg
 4w1fwt
 4w1uwb
-4wa
 4wa2
 4wa21wby
 4wa21wby2
@@ -7406,13 +7366,11 @@
 4wbpw
 4wbt2
 4wbwp21
-4wc
 4wc12
 4wcb2c
 4wcpw
 4wcs2j3c
 4wcx2k
-4wf
 4wf2y2b2
 4wf2y2f2
 4wf2y2f2b2
@@ -7464,7 +7422,6 @@
 4wfy2i2
 4wfy2x2a2
 4wfy2xwa
-4wg
 4wg2bzymb
 4wg2bzymbb2c
 4wg2bzymbhw
@@ -7555,7 +7512,6 @@
 4wky2vp2xw
 4wky2vpw
 4wkyw
-4wl
 4wl7q7v
 4wl7q7vb2
 4wl7q7vp2l2
@@ -7591,7 +7547,6 @@
 4wlwxeyowbw
 4wlwxeyx2l
 4wlwxeyx2lb2
-4wn
 4wn2p
 4wn2y
 4wnwxebl2
@@ -7630,7 +7585,6 @@
 4wrwf2b2
 4wrwf2b2c
 4wrwp2b
-4ws
 4ws3x2b
 4ws7
 4ws7xwa
@@ -7657,7 +7611,6 @@
 4wtwy2p2b
 4wu2t
 4wuaw
-4wx
 4wx21
 4wx21b2
 4wx21f2
@@ -7715,7 +7668,6 @@
 4wzmbxwap2l2
 4wzmbxwapw
 4wzwp7z7
-a
 a21w
 a21wf2y2
 a21wf2y2b2
@@ -8106,9 +8058,7 @@ a3z3b3awyf21e
 a3za3ff21e
 a3za3ff21ex2l
 a5bg3c
-a7c
 a7ca7cb2c
-a7f
 a7f21e
 a7f21eb2
 a7f21eb2c
@@ -8138,7 +8088,6 @@ a7fxwt
 a7fyel
 a7fyev
 a7k21e
-a7o
 a7of2y2
 a7of2y2b2
 a7of2y2f2s
@@ -8173,7 +8122,6 @@ a7t21eze
 a7v
 a7v2
 a7x3ylw
-a7y
 ae1n2b2
 ae1nwb
 ae1nwbb2
@@ -8505,7 +8453,6 @@ aeq2fx2lb2
 aeq2fx2lle
 aeq2fxea
 aeq2ge
-aer
 aes2x
 aes2xx2l
 aes2xx2l2
